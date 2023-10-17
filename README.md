@@ -13,16 +13,16 @@
 6. X play first
 7. mark their spot 
     
-     X _ _  | <br>
-     _ _ _  | <br>
-     _ _ _  | <br>
+     X _ _   <br>
+     _ _ _   <br>
+     _ _ _   <br>
 
 8. O plays 
   
     
-     X _ _  | <br>
-     _ _ _  | <br>
-     _ _ O  | <br>
+     X _ _   <br>
+     _ _ _   <br>
+     _ _ O   <br>
 
 9. Game Continue Until 
   - X wins
