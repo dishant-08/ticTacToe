@@ -13,9 +13,9 @@
 6. X play first
 7. mark their spot 
     
-     X _ _
-     _ _ _
-     _ _ _
+     X _ _  |
+     _ _ _  |
+     _ _ _  |
 
 8. O plays 
   
