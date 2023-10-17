@@ -1,6 +1,8 @@
 
 # Tic Tac Toe in JavaScript
 
+
+
 ## Sequence Of Game
 1. Start the Game
 2. Only 2 plyers can Play( X and O)
@@ -27,6 +29,11 @@
   - O wins
   - Draw
   - More moves are left
+
+## Checking the draw 
+  We have done in  two ways  
+  1. My own method by creating another variable for checking the length.
+  2. Optimze approach without creating new variable. 
 
 ## Requirements
 
