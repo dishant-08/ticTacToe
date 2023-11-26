@@ -50,12 +50,14 @@ let boardorMessage, result, currentPlayer;
 
 // [result, boardorMessage] = play("X", 1);
 // printBoard(boardorMessage);
+
+//
 while (true) {
   let empty = [];
   if (result) {
     empty = findEmpty(boardorMessage);
-    // console.log(empty);
-    if (!empty.length) {
+    // console.log(boardorMessage[0]);
+    if (!empty.length || !(boardorMessage[0] == "ongoing")) {
       break;
     }
     [result, boardorMessage, currentPlayer] = play(
