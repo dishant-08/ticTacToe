@@ -33,23 +33,6 @@ function findEmpty(board) {
 let boardorMessage, result, currentPlayer;
 
 [result, boardorMessage, currentPlayer] = play("X", 1);
-// [result, boardorMessage] = play("O", 6);
-// //  printBoard(boardorMessage);
-// [result, boardorMessage] = play("X",5);
-// [result, boardorMessage] = play("O",2);
-// // printBoard(boardorMessage);
-// [result, boardorMessage] = play("X",9);
-// [result, boardorMessage] = play("O",8);
-// [result, boardorMessage] = play("X",4);
-// [result, boardorMessage] = play("O",9);
-// [result, boardorMessage] = play("X",7);
-// [result, boardorMessage] = play("O",8);
-// [result, boardorMessage] = play("X",3);
-// [result, boardorMessage] = play("O",8);
-// printBoard(boardorMessage);
-
-// [result, boardorMessage] = play("X", 1);
-// printBoard(boardorMessage);
 
 //
 while (true) {
@@ -57,7 +40,7 @@ while (true) {
   if (result) {
     empty = findEmpty(boardorMessage);
     // console.log(boardorMessage[0]);
-    if (!empty.length || !(boardorMessage[0] == "ongoing")) {
+    if (!(boardorMessage[0] == "ongoing")) {
       break;
     }
     [result, boardorMessage, currentPlayer] = play(
